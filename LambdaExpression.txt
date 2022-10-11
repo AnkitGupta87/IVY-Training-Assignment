@@ -1,0 +1,37 @@
+using System;
+
+namespace LambdaExpression
+{
+    
+    // delegate ...  function pointer
+    public delegate int cal(int a);  // single cast 
+    public delegate int arithmatic(int a, int b);  // multicast 
+
+    internal class Program
+    {
+        // delegates.... function pointer ...
+        // Anonymous function....  without name.... 2.0 
+        static void Main(string[] args)
+        {
+            // Lambda expression is introduced in C# 3.0
+            // Lambda expression is simplified version of Anonymous method
+            // Anonymous method
+
+            cal obj = (p) =>
+            {
+                //Console.WriteLine("Square = "+ p*p);
+                return p * p;
+            };
+
+            Console.WriteLine("Enter a number to find its square");
+            int num = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(obj.Invoke(num)); ;
+
+            //obj = delegate (int q)
+            //{ Console.WriteLine(q * q * q); };
+            //obj.Invoke(20);
+
+        }
+    }
+}
