@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    }

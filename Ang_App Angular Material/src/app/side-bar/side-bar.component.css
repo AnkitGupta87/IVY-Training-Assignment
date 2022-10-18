@@ -1,0 +1,25 @@
+.side{
+    background-color: rgb(207, 166, 246);
+    float: left;
+    width: 20%;
+    height: 80%;
+    margin-top: 0% !important ;
+}
+.head{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(103, 14, 185);
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+}
+.head>a{
+    /* margin-top: 10px; */
+    font-size: 25px;
+}
+.head:hover{
+    cursor: pointer;
+    background-color: rgb(173, 101, 240);
+}

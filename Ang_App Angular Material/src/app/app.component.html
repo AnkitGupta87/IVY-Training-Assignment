@@ -1,0 +1,23 @@
+<app-head-bar></app-head-bar>
+<div class="mid">
+  <app-side-bar class="sideBar"></app-side-bar>
+  <div *ngIf="!showlogin" class="main">
+    <h1>
+      <p class="tag">
+        Launch the Career <br /> of your dreams
+      </p>
+      <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        ProGrad is a new-age <br /> tech school where you can master <br /> in-demand skills and launch your dream
+        developer career.
+      </p>
+    </h1>
+    <button (click)="show()" class="btn">Get Started</button>
+  </div>
+  <div *ngIf="showlogin" class="main">
+    <mat-form-field>
+      <mat-label>UserName</mat-label>
+      <input placeholder="UserName">
+    </mat-form-field>
+  </div>
+</div>
+<app-foot-bar class="footer"></app-foot-bar>
