@@ -1,0 +1,9 @@
+<button (click)="addNewAdr()">Add New Address</button>
+
+<div id="address" [formGroup]="addressForm">
+  <div *ngFor="let adr of address; let i = index;">
+    <app-detail-fields [form]="addressForm" [adr]="adr" [adrIndex]="i"></app-detail-fields>
+    <button>Save</button>
+    <!-- <button [disabled]="!addressForm.controls.address.controls[i].valid">Save</button> -->
+  </div>
+</div>

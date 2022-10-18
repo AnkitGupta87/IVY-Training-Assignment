@@ -1,0 +1,14 @@
+<div [formGroup]="form">
+    <div class="car-wrap" formArrayName="address">
+        <div [ngClass]="adr.make + '-car'" [formGroupName]="adrIndex">
+            <p class="title">Adress is : {{adr.make}}</p>
+            <div formGroupName="details">
+              <input type="text" placeholder="Enter Your Name" formControlName="make">
+              <br>
+              <input type="text" placeholder="Enter your City" formControlName="model">
+              <br>
+              <input type="text" placeholder="Enter Your Address" formControlName="year">
+            </div>
+        </div>
+    </div>
+</div>
