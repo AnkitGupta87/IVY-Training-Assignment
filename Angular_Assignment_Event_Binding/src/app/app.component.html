@@ -1,0 +1,11 @@
+<h1>Click Event</h1>
+<h3>OnClicking the Button you will See the Box</h3>
+<div *ngIf="showClick" class="box"></div>
+<button (click)="greet($event)">Click to she the Box</button>
+<p *ngIf="showClick">this is {{eventType1}} event</p>
+
+<h1>MouseOver Event</h1>
+<h3>OnMouseOver the Button you will See the Box</h3>
+<div *ngIf="showHover" class="box" style="background-color: green;"></div>
+<button (mouseover)="greetHover($event)">Hover over the Button to she the Box</button>
+<p *ngIf="showHover">this is {{eventType2}} event</p>
