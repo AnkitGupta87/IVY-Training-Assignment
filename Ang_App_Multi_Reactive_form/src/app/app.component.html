@@ -1,0 +1,7 @@
+<h1>WelCome To ProGrad</h1>
+<div class="head" style="clear: both">
+  <h2 (click)="loginPage(false)" style="display: inline-block">SignUp / </h2>
+  <h2 (click)="loginPage(true)" style="display: inline-block"> LogIn</h2>
+</div>
+<app-log-in *ngIf="login"></app-log-in>
+<app-sign-up *ngIf="!login"></app-sign-up>
