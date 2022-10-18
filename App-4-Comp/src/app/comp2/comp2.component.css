@@ -1,0 +1,13 @@
+.body{
+    background-color: rgb(143, 140, 197);
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+h3{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,15 @@
+<div class="body">
+    <h1>Assignment - 1</h1>
+    <br><br>
+    <h3>This is Component Number : 1</h3>
+    <div class="btn">
+        <button (click)="showCal()">Click to see Component-2</button>
+        <button (click)="showAllComp()">Click Here To see All The Component</button>
+    </div>
+</div>
+<div>
+    <div *ngIf="allComp"><app-add-sub></app-add-sub></div>
+    <div *ngIf="allComp"><app-comp2></app-comp2></div>
+    <div *ngIf="allComp"><app-comp3></app-comp3></div>
+</div>
+<div *ngIf="cal"><app-add-sub></app-add-sub></div>
