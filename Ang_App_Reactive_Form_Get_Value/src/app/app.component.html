@@ -1,0 +1,30 @@
+<h2>WelCome to ProGrad</h2>
+<form [formGroup]="ReactiveForm">
+  <div class="container">
+    <div class="box">
+      <label for="uname"><b>Username :</b></label>
+      <input formControlName="username" type="text" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div class="box">
+      <label for="email"><b>email :</b></label>
+      <input formControlName="email" type="email" placeholder="Enter Email" name="email" required>
+    </div>
+    <div class="box">
+      <label for="course"><b>Course :</b></label>
+      <select formControlName="course" name="course" id="cars">
+        <option value="Angular">Angular</option>
+        <option value="NET">.NET</option>
+        <option value="CSharp">C#</option>
+        <option value="JS">JavaScript</option>
+      </select>
+    </div>
+    <div class="box"> 
+      <label for="gender"><b>Gender :</b></label>
+      <input formControlName="gender" type="radio" name="gender" value="male"> Male<br>
+      <input formControlName="gender" type="radio" name="gender" value="female"> Female<br>
+    </div>
+    <div>
+      <button style="align-items: center ;" [formControl]="name" (click)="OnSubmit()">Submit</button>
+    </div>
+  </div>
+</form>
