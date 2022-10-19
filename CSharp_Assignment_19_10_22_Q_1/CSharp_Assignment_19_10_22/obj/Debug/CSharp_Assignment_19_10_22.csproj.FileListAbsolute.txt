@@ -1,0 +1,7 @@
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\bin\Debug\CSharp_Assignment_19_10_22.exe.config
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\bin\Debug\CSharp_Assignment_19_10_22.exe
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\bin\Debug\CSharp_Assignment_19_10_22.pdb
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\obj\Debug\CSharp_Assignment_19_10_22.csprojAssemblyReference.cache
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\obj\Debug\CSharp_Assignment_19_10_22.csproj.CoreCompileInputs.cache
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\obj\Debug\CSharp_Assignment_19_10_22.exe
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_19_10_22\CSharp_Assignment_19_10_22\obj\Debug\CSharp_Assignment_19_10_22.pdb
