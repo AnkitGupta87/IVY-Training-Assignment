@@ -1,0 +1,7 @@
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\bin\Debug\CSharp_Assignment_Swap_Files.exe.config
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\bin\Debug\CSharp_Assignment_Swap_Files.exe
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\bin\Debug\CSharp_Assignment_Swap_Files.pdb
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\obj\Debug\CSharp_Assignment_Swap_Files.csprojAssemblyReference.cache
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\obj\Debug\CSharp_Assignment_Swap_Files.csproj.CoreCompileInputs.cache
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\obj\Debug\CSharp_Assignment_Swap_Files.exe
+C:\Users\ankit.gupta\source\repos\CSharp_Assignment_Swap_Files\CSharp_Assignment_Swap_Files\obj\Debug\CSharp_Assignment_Swap_Files.pdb
